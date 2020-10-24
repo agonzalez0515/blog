@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: main
 publish_mode: editorial_workflow
 media_folder: 'src/images'
 public_folder: '/images'
@@ -221,5 +221,5 @@ collections:
             default:
               {
                 'base': '"-apple-system, BlinkMacSystemFont, ''Segoe UI'', Roboto, Helvetica, Arial, sans-serif, ''Apple Color Emoji'', ''Segoe UI Emoji'', ''Segoe UI Symbol''"',
-                'serif': '"''Lora'', serif"',
+                'serif': '"''Latin Modern Mono'', serif"',
               }
