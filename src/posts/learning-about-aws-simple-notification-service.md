@@ -7,9 +7,9 @@ tags:
   - jam stack
   - serverless
 ---
-Quick life update, 2 months ago I joined a company called FightCamp! I'm working a full stack role with all the goodness of the JAM Stack. Which means I need to learn AWS.
+Quick life update, back in June I joined a company called FightCamp! I'm working a full stack role with all the goodness of the Jam Stack. Which means I need to learn AWS.
 
-The first project I worked on with AWS was giving a customer a subscription credit on Stripe when they check out with a promo code. Since our whole backend system is Serverless this means I needed to learn about AWS Lambdas, SNS, and Stripe. Let's do it!
+The first project I worked on with AWS was to give a customer a subscription credit on Stripe when they check out with a promo code. Since our whole backend system is Serverless this means I needed to learn about AWS Lambdas, SNS, and Stripe. Let's do it!
 
 ## Simple Notification Service (SNS)
 This is what took me a little extra effort to understand. And honestly, the AWS documentation did not help. Turns out SNS is a Pub-Sub service. 
