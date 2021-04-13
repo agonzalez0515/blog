@@ -34,7 +34,7 @@ functions:
 To make an SNS topic, you go to the AWS console, search for SNS in their handy search bar, and click on 'Create topic' button. After you create the topic, copy the `arn` and paste that into the `serverless.yml`. 
 
 ## Lambda and Stripe
-The third part of this recipe is the Lambda that's going to hit Stripe and give the credit. In your `index.js` file you will export a function that takes a parameter, we call it event, that will have your data. 
+The third part of this recipe is the Lambda that's going to hit Stripe and give the credit. In your `index.js` file you will export a function that takes a parameter, we call it event, that will have your payload. In here I can then call the Stripe API and give the customer their credit!
 ``` 
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
